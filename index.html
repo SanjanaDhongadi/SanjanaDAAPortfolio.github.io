@@ -1,440 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Hello, I'm [Your Name] 👋</h1>
+        <p>I am passionate about technology and problem-solving. Here's a glimpse of my work:</p>
+    </header>
 
-    <head>
-        <meta charset="utf-8">
-        <title>DAA- Portfolio</title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="" name="keywords">
-        <meta content="" name="description">
-
-        <!-- Google Web Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"> 
-
-        <!-- Icon Font Stylesheet -->
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
-
-        <!-- Libraries Stylesheet -->
-        <link rel="stylesheet" href="lib/animate/animate.min.css"/>
-        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-
-
-        <!-- Customized Bootstrap Stylesheet -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-
-        <!-- Template Stylesheet -->
-        <link href="css/style.css" rel="stylesheet">
-    </head>
-
-    <body>
-
-        <!-- Spinner Start -->
-        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-                <span class="sr-only">Loading...</span>
-            </div>
-        </div>
-        <!-- Spinner End -->
-
-        <!-- Navbar & Hero Start -->
-        <div class="container-fluid position-relative p-0">
-            <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
-                <a href="" class="navbar-brand p-0">
-                    <h1 class="text-primary"><i></i>DAA</h1>
-                    <!-- <img src="img/logo.jpg" alt="Logo"> -->
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                    <span class="fa fa-bars"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <div class="navbar-nav ms-auto py-0">
-                        <a href="index.html" class="nav-item nav-link active">Home</a>
-                        <a href="Course Project.html" class="nav-item nav-link">Course Project</a>
-                        <a href="Learning Reflections.html" class="nav-item nav-link">Learning Reflections</a>
-                        <a href="Student Details.html" class="nav-item nav-link">Student Details</a>
-                    </div>
-                </div>
-            </nav>
-
-            <!-- Carousel Start -->
-            <div class="header-carousel owl-carousel">
-                <div class="header-carousel-item">
-                    <img src="img/carousel-1.jpg" class="img-fluid w-100" alt="Image">
-                    <div class="carousel-caption">
-                        <div class="container">
-                            <div class="row gy-0 gx-5">
-                                <div class="col-lg-0 col-xl-5"></div>
-                                <div class="col-xl-7 animated fadeInLeft">
-                                    <div class="text-sm-center text-md-end">
-                                        <h4 class="text-primary text-uppercase fw-bold mb-4">Welcome To DAA Portfolio</h4>
-                                        <h1 class="display-4 text-uppercase text-white mb-4">
-                                            "Mastering Algorithms, Optimizing Solutions!"</h1>
-                                        <p class="mb-5 fs-5">Design and Analysis of Algorithms (DAA) teaches how to solve problems efficiently. It focuses on creating smart solutions and understanding their performance.
-                                        </p>
-                                        <div class="d-flex align-items-center justify-content-center justify-content-md-end">
-                                            <h2 class="text-white me-2">Follow On:</h2>
-                                            <div class="d-flex justify-content-end ms-2">
-                                                <a class="btn btn-md-square btn-light rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
-                                                <a class="btn btn-md-square btn-light rounded-circle mx-2" href=""><i class="fab fa-twitter"></i></a>
-                                                <a class="btn btn-md-square btn-light rounded-circle mx-2" href=""><i class="fab fa-instagram"></i></a>
-                                                <a class="btn btn-md-square btn-light rounded-circle ms-2" href=""><i class="fab fa-linkedin-in"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="header-carousel-item">
-                    <img src="img/carousel-2.jpg" class="img-fluid w-100" alt="Image">
-                    <div class="carousel-caption">
-                        <div class="container">
-                            <div class="row g-5">
-                                <div class="col-12 animated fadeInUp">
-                                    <div class="text-center">
-                                        <h4 class="text-primary text-uppercase fw-bold mb-4">Welcome To DAA Portfolio</h4>
-                                        <h1 class="display-4 text-uppercase text-white mb-4">"Mastering Algorithms, Optimizing Solutions!"</h1>
-                                        <p class="mb-5 fs-5">Design and Analysis of Algorithms (DAA) teaches how to solve problems efficiently. It focuses on creating smart solutions and understanding their performance.
-                                        </p>
-                                        </p>
-                
-                                        <div class="d-flex align-items-center justify-content-center">
-                                            <h2 class="text-white me-2"></h2>
-                                            <div class="d-flex justify-content-end ms-2">
-                                                <a class="btn btn-md-square btn-light rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
-                                                <a class="btn btn-md-square btn-light rounded-circle mx-2" href=""><i class="fab fa-twitter"></i></a>
-                                                <a class="btn btn-md-square btn-light rounded-circle mx-2" href=""><i class="fab fa-instagram"></i></a>
-                                                <a class="btn btn-md-square btn-light rounded-circle ms-2" href=""><i class="fab fa-linkedin-in"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Carousel End -->
-        </div><br>
-        <!-- Navbar & Hero End -->
-         <!-- Services Start -->
-        <div class="container-fluid service pb-5">
-            <div class="container pb-5">
-                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                    <h1>Hello, I'm Manasi Divate 👋</h1>
-        <p>I am passionate about technology and problem-solving. Here's a glimpse of my work:</p><br>
+    <section>
         <h2>🛠️ Projects</h2>
-        
-            <strong>Project </strong>:  Smart City Rajpur- It is an ambitious urban development project aimed at transforming Rajpur into a modern, sustainable, and technology-driven city. <br><br>
-        
+        <ul>
+            <li><strong>Project 1</strong>: A short description of your project1.</li>
+            <li><strong>Project 2</strong>: A short description of another project2.</li>
+        </ul>
 
         <h2>🚀 Skills</h2>
-        
-            C++, Python, JavaScript with OOPS,
-            Data Structures and Algorithms,
-            Data Structures with Python,
-            Cybersecurity<br><br>
-        
+        <ul>
+            <li>C++, Python, JavaScript</li>
+            <li>Data Structures and Algorithms</li>
+            <li>Web Development (React.js, Node.js)</li>
+        </ul>
 
         <h2>🌐 Find Me Online</h2>
-        
-            <a href="https://github.com/Manasi-Divate" target="_blank">GitHub</a><br>
-            <a href="https://linkedin.com/in/your-linkedin-profile" target="_blank">LinkedIn</a><br><br>
-        
+        <ul>
+            <li><a href="https://github.com/your-github-username" target="_blank">GitHub</a></li>
+            <li><a href="https://linkedin.com/in/your-linkedin-profile" target="_blank">LinkedIn</a></li>
+        </ul>
 
         <h2>Portfolio Topic</h2>
         <dl>
-            <dt>Course Name:</dt>
+            <dt>Course Name</dt>
             <dd>Algorithmic Problem Solving</dd>
 
             <dt>Course Code</dt>
-            <dd>24ECSC205</dd>
+            <dd>Course Code Placeholder</dd>
 
             <dt>Name</dt>
-            <dd>Manasi Divate</dd>
+            <dd>Your Name</dd>
 
             <dt>SRN</dt>
-            <dd>01FE24BCS403</dd>
+            <dd>Your SRN</dd>
 
             <dt>Course Instructor</dt>
-            <dd>Arundhati Aralimatti</dd>
+            <dd>Instructor Name Placeholder</dd>
 
             <dt>University</dt>
-            <dd>KLE Technological University, Hubballi</dd>
+            <dd>Your University Name</dd>
 
             <dt>Portfolio Topic/Domain</dt>
             <dd>Google</dd>
         </dl>
 
-        <blockquote>“The only way to do great work is to love what you do.” – Steve Jobs</blockquote><br><br>
-        <h1 class="text-primary text-uppercase fw-bold mb-4">ABOUT COURSE</h1>
-                </div>
-            </div>
-        </div>                                      
-    <!-- Page Header -->
-    <header class="header" id="home">
-        <div class="container">
-            <div class="infos">
-                <h4 style="color: #5DBB63;">1.WHAT IS THE COURSE ABOUT?</h4>
-                <div class="container1">          
-                    <div class="img-holder"></div> 
-                        <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
-        <dotlottie-player src="https://lottie.host/93acd152-31dc-496d-9db5-7329dc907728/w9RcPE7E8r.lottie" background="transparent" speed="1" style="width: 300px; height: 300px" loop autoplay></dotlottie-player>
-                        <br><br><br>
-                    </div>      
-                <p>-->The Design and Analysis of Algorithms (DAA) course is about learning how to create efficient algorithms to solve complex problems. It focuses on understanding algorithm design techniques(like divide and conquer, greedy, and dynamic programming) and analyzing their performance in terms of time and space complexity.<br>This course emphasizes:<br>
+        <blockquote>“The only way to do great work is to love what you do.” – Steve Jobs</blockquote>
 
-                    - The systematic design of algorithms.<br>
-                    - The analysis of their time and space complexities.<br>
-                    - The application of mathematical tools to compare algorithm performance.<br>
-                    
-                    By studying this, I have gained the skills to approach problems systematically, design solutions, and measure their efficiency.</p>
+        <h2>About Google</h2>
+        <p>
+            Google, founded in 1998, is a global leader in technology. It specializes in Internet-related services and products such as search engines, online advertising, cloud computing, and more.
+        </p>
 
-                <div class="socials mt-4">
-                    <a class="social-item" href="javascript:void(0)"><i class="ti-facebook"></i></a>
-                    <a class="social-item" href="javascript:void(0)"><i class="ti-google"></i></a>
-                    <a class="social-item" href="javascript:void(0)"><i class="ti-github"></i></a>
-                    <a class="social-item" href="javascript:void(0)"><i class="ti-twitter"></i></a>
-                </div>
-            </div>   
-        </div>  
+        <h3>Why Choose Google?</h3>
+        <ul>
+            <li>Innovative and cutting-edge technology</li>
+            <li>World-class team of professionals</li>
+            <li>Global impact and diverse opportunities</li>
+        </ul>
 
-        <!-- Header-widget -->
-          <!-- Page Header -->
-    <header class="header" id="home">
-        <div class="container">
-            <div class="infos">
-                <h4 style="color: #5DBB63;">2.WHAT KIND OF DATA STRUCTURES AND ALGORITHMS HAVE YOU STUDIED?</h4>
-                <div class="container1">          
-                    <div class="img-holder"></div> 
-                        <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
-                        <dotlottie-player src="https://lottie.host/35c91046-1bfa-49b0-a24c-e20cd263a688/ZaMRxC9lAb.lottie" background="transparent" speed="1" style="width: 300px; height: 300px" loop autoplay></dotlottie-player>
-                        <br><br><br>
-                    </div>      
-                <p>-->
-                    DATA STRUCTURES :<br>
-                    i) Arrays<br>
-                    ii) Stacks<br>
-                    iii) Queues<br>
-                    iv) Linked Lists<br>
-                    v) Trees<br>
-                    vi) Graphs<br>
-                    vii) Heaps<br>
-                    viii) Advanced structures like Tries, Fenwick Trees, Segment Trees, and Skip Lists<br><br>
+        <h3>Google’s Mission</h3>
+        <p>"To organize the world’s information and make it universally accessible and useful."</p>
 
-                -->ALGORITHMS :<br>
-i) Sorting and Searching: Organizing data Bubble Sort, Quick Sort, Merge Sort and finding items Binary Search, KMP Algorithm.<br>
-ii) Graph Algorithms: Shortest path algorithms Dijkstra’s, Bellman-Ford and Minimum Spanning Trees Prim’s, Kruskal’s.<br>
-iii) Pathfinding: Algorithms to determine routes Floyd-Warshall.<br>
-iv) Optimization Problems: Knapsack, Travelling Salesperson Problem, and Huffman Coding.<br>
-v) Recursion and Backtracking: Problem-solving using function calls N-Queens Problem.<br>
-vi) String Matching: Algorithms like Rabin-Karp, Boyer-Moore, and Brute Force for searching patterns in text.<br>
-vii) Divide and Conquer: Techniques like Merge Sort and Strassen’s Matrix Multiplication.<br>
-viii)Dynamic Programming: Solving problems by breaking them into overlapping subproblems Fibonacci, Longest Common Subsequence.<br>
-ix) Undecidability: Understanding problems that can't be solved algorithmically Halting Problem.<br>
-                </p>
+        <h3>Exciting Technologies by Google</h3>
+        <ul>
+            <li>Artificial Intelligence and Machine Learning</li>
+            <li>Android and Chrome OS</li>
+            <li>Google Cloud Platform</li>
+        </ul>
 
-                <div class="socials mt-4">
-                    <a class="social-item" href="javascript:void(0)"><i class="ti-facebook"></i></a>
-                    <a class="social-item" href="javascript:void(0)"><i class="ti-google"></i></a>
-                    <a class="social-item" href="javascript:void(0)"><i class="ti-github"></i></a>
-                    <a class="social-item" href="javascript:void(0)"><i class="ti-twitter"></i></a>
-                </div>
-            </div>              
-            
-        </div>  
-
-        <!-- Header-widget -->
-            <!-- Page Header -->
-    <header class="header" id="home">
-        <div class="container">
-            <div class="infos">
-                <h4 style="color: #5DBB63;">3.HOW DO YOU CONNECT THE COURSE WITH REAL TIME APPLICATIONS?</h4>
-                <div class="container1">          
-                    <div class="img-holder"></div> 
-                        <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
-                        <dotlottie-player src="https://lottie.host/e803acf0-c9e8-4094-a967-028872af40dd/PUby2n6lpQ.lottie" background="transparent" speed="1" style="width: 300px; height: 300px" loop autoplay></dotlottie-player>
-                        <br><br><br>
-                    </div>      
-                <p>-->The Design and Analysis of Algorithms (DAA) course is closely connected to real-time applications as it equips us with the tools to solve practical problems efficiently. Algorithms like Dijkstra’s are used in GPS navigation systems to find optimal routes. Sorting and searching algorithms are essential for managing large datasets in applications like e-commerce and search engines. Additionally, dynamic programming and greedy algorithms are widely applied in fields such as financial modeling, scheduling, and resource optimization. By learning these techniques, we gain the ability to design robust solutions for real-world challenges.</p>
-
-                
-
-                <div class="socials mt-4">
-                    <a class="social-item" href="javascript:void(0)"><i class="ti-facebook"></i></a>
-                    <a class="social-item" href="javascript:void(0)"><i class="ti-google"></i></a>
-                    <a class="social-item" href="javascript:void(0)"><i class="ti-github"></i></a>
-                    <a class="social-item" href="javascript:void(0)"><i class="ti-twitter"></i></a>
-                </div>
-            </div>              
-        </div>  <br>
-
-        <!-- Textbook references start -->
-        <div class="container-fluid service pb-5">
-            <div class="container pb-5">
-                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                    <h1 class="text-primary text-uppercase fw-bold mb-4">REFERENCE LINKS</h1>
-
-                </div>
-                <div class="row g-4">
-                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="service-item">
-                            <div class="service-img">
-                                <img src="img/tb1.jpg" class="img-fluid rounded-top w-100" alt="Image">
-                            </div>
-                            <div class="rounded-bottom p-4">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="service-item">
-                            <div class="service-img">
-                                <img src="img/tb2.jpg" class="img-fluid rounded-top w-100" alt="Image">
-                            </div>
-                            <div class="rounded-bottom p-4">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="service-item">
-                            <div class="service-img">
-                                <img src="img/tb3.jpg" class="img-fluid rounded-top w-100" alt="Image">
-                            </div>
-                            <div class="rounded-bottom p-4">
-                            </div>
-                        </div>
-                    </div>
-                    
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Textbook references End -->
-
-        <!-- Footer Start -->
-        <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
-            <div class="container py-5 border-start-0 border-end-0" style="border: 1px solid; border-color: rgb(255, 255, 255, 0.08);">
-                <div class="row g-5">
-                    <div class="col-md-6 col-lg-6 col-xl-4">
-                        <div class="footer-item">
-                            <a href="index.html" class="p-0">
-                                <h4 class="text-white"><i class="fas fa-search-dollar me-3"></i>DAA</h4>
-                                <!-- <img src="img/logo.png" alt="Logo"> -->
-                            </a>
-                            <p class="mb-4">
-                                "Efficient algorithms, smarter solutions!"</p>
-                            <div class="d-flex">
-                                <a href="#" class="bg-primary d-flex rounded align-items-center py-2 px-3 me-2">
-                                    <i class="fas fa-apple-alt text-white"></i>
-                                    <div class="ms-3">
-                                        <small class="text-white">Download on the</small>
-                                        <h6 class="text-white">App Store</h6>
-                                    </div>
-                                </a>
-                                <a href="#" class="bg-dark d-flex rounded align-items-center py-2 px-3 ms-2">
-                                    <i class="fas fa-play text-primary"></i>
-                                    <div class="ms-3">
-                                        <small class="text-white">Get it on</small>
-                                        <h6 class="text-white">Google Play</h6>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-2">
-                        <div class="footer-item">
-                            <h4 class="text-white mb-4">Quick Links</h4>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Home</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Course Project</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Learning Reflections</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Student Details</a>
-                          
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="footer-item">
-                            <h4 class="text-white mb-4">Support</h4>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Privacy Policy</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Terms & Conditions</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Disclaimer</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Support</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> FAQ</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Help</a>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="footer-item">
-                            <h4 class="text-white mb-4">Contact Info</h4>
-                            <div class="d-flex align-items-center">
-                                <i class="fas fa-map-marker-alt text-primary me-3"></i>
-                                <p class="text-white mb-0">Gokul road 3rd cross, Hubli</p>
-                            </div>
-                            <div class="d-flex align-items-center">
-                                <i class="fas fa-envelope text-primary me-3"></i>
-                                <p class="text-white mb-0">mdivate588@gmail.com</p>
-                            </div>
-                            <div class="d-flex align-items-center">
-                                <i class="fa fa-phone-alt text-primary me-3"></i>
-                                <p class="text-white mb-0">9480793935</p>
-                            </div>
-                            <div class="d-flex align-items-center mb-4">
-                                <i class="fab fa-firefox-browser text-primary me-3"></i>
-                                <p class="text-white mb-0">Yoursite@daa.com</p>
-                            </div>
-                            <div class="d-flex">
-                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="#"><i class="fab fa-facebook-f text-white"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="#"><i class="fab fa-twitter text-white"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="#"><i class="fab fa-instagram text-white"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-circle me-0" href="#"><i class="fab fa-linkedin-in text-white"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Footer End -->
-        
-        <!-- Copyright Start -->
-        <div class="container-fluid copyright py-4">
-            <div class="container">
-                <div class="row g-4 align-items-center">
-                    <div class="col-md-6 text-center text-md-start mb-md-0">
-                        <span class="text-body"><a href="#" class="border-bottom text-white"><i class="fas fa-copyright text-light me-2"></i>DAA</a>, All right reserved.</span>
-                    </div>
-                    <div class="col-md-6 text-center text-md-end text-body">
-                        <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
-                        <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
-                        <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
-                        Designed By - Manasi Divate<a class="border-bottom text-white" href="https://htmlcodex.com"></a><a class="border-bottom text-white" href="https://themewagon.com"></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Copyright End -->
-
-
-        <!-- Back to Top -->
-        <a href="#" class="btn btn-primary btn-lg-square rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>   
-
-        
-        <!-- JavaScript Libraries -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="lib/wow/wow.min.js"></script>
-        <script src="lib/easing/easing.min.js"></script>
-        <script src="lib/waypoints/waypoints.min.js"></script>
-        <script src="lib/counterup/counterup.min.js"></script>
-        <script src="lib/lightbox/js/lightbox.min.js"></script>
-        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-        
-
-        <!-- Template Javascript -->
-        <script src="js/main.js"></script>
-    </body>
-
+        <blockquote>“Innovation is the ability to see change as an opportunity – not a threat.” – Steve Jobs</blockquote>
+    </section>
+</body>
 </html>
