@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Optimising Emergency Response</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f9;
+      color: #333;
+      overflow-x: hidden;
+    }
+    header {
+      text-align: center;
+      padding: 150px 50px;
+      background-image: url('image/ae.jpg');
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+      animation: fadeIn 2s;
+    }
+    header h1 {
+      font-size: 50px;
+      margin: 0;
+      font-weight: 700;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    }
+    nav {
+      position: sticky;
+      top: 0;
+      background-color: #1fa789;
+      padding: 15px 0;
+      text-align: center;
+      z-index: 1000;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #ffd700;
+      text-decoration: underline;
+    }
+    section {
+      padding: 30px;
+    }
+    .content {
+      max-width: 80%;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+    h2 {
+      color: #1fa789;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+    table th, table td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+    table th {
+      background-color: #1fa789;
+      color: white;
+    }
+    footer {
+      background-color: #1a1a1a;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 30px;
+    }
+    footer a {
+      color: #1fa789;
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="#overview">Overview</a>
+    <a href="#problem-statements">Problem Statements</a>
+    <a href="#sdgs">SDGs</a>
+  </nav>
+
+  <header>
+    <h1></h1>
+  </header>
+
+  <section id="overview">
+    <div class="content">
+        <h1 style="color: #1fa789;">Optimising Emergency Response in a City</h1>
+      <h2>Overview</h2>
+      <p>Emergencies require immediate action and efficient resource allocation to minimize damage and save lives. This project focuses on leveraging graph algorithms, pattern-matching algorithms, and data optimization techniques to enhance emergency response systems in cities.</p>
+    </div>
+  </section>
+
+  <section id="problem-statements">
+    <div class="content">
+      <h2>Problem Statements</h2>
+      <ol>
+        <li>
+          <strong>Resource Management:</strong> Optimize resource delivery to high-priority localities using road networks. Minimize travel time while prioritizing urgent areas.
+        </li>
+        <li>
+          <strong>Traffic Flow Optimization:</strong> Identify all paths from fire stations to high-risk commercial areas, rank them by travel time, and detect bottlenecks for emergency vehicles.
+        </li>
+        <li>
+          <strong>Network Issue Detection:</strong> Use pattern-matching algorithms to detect connection timeouts, high latency, or packet drops in network logs, enabling faster issue resolution.
+        </li>
+        <li>
+          <strong>Hospital Access:</strong> Develop an efficient system to determine the shortest path from any location to the nearest hospital in real time.
+        </li>
+        <li>
+          <strong>Evacuation Plan:</strong> Identify optimal evacuation routes and recurring communication signals to direct emergency teams effectively during disasters.
+        </li>
+        <li>
+          <strong>Pattern Detection:</strong> Process locality names and emergency requests using algorithms like Rabin-Karp or KMP to identify key patterns for rapid response.
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="sdgs">
+    <div class="content">
+      <h2>Sustainable Development Goals (SDGs)</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Problem Statement</th>
+            <th>Linked SDGs</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Resource Management</td>
+            <td>Goal 11: Sustainable Cities and Communities<br>Goal 9: Industry, Innovation, and Infrastructure</td>
+          </tr>
+          <tr>
+            <td>Traffic Flow Optimization</td>
+            <td>Goal 11: Sustainable Cities and Communities<br>Goal 3: Good Health and Well-being</td>
+          </tr>
+          <tr>
+            <td>Network Issue Detection</td>
+            <td>Goal 9: Industry, Innovation, and Infrastructure<br>Goal 11: Sustainable Cities and Communities</td>
+          </tr>
+          <tr>
+            <td>Hospital Access</td>
+            <td>Goal 3: Good Health and Well-being<br>Goal 10: Reduced Inequalities</td>
+          </tr>
+          <tr>
+            <td>Evacuation Plan</td>
+            <td>Goal 13: Climate Action<br>Goal 11: Sustainable Cities and Communities</td>
+          </tr>
+          <tr>
+            <td>Pattern Detection</td>
+            <td>Goal 9: Industry, Innovation, and Infrastructure<br>Goal 11: Sustainable Cities and Communities</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Emergency Response Team. Designed by <a href="#">Team 7</a>.</p>
+  </footer>
+
+</body>
+</html>
